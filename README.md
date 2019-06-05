@@ -29,7 +29,7 @@ vue2+vue-router+webpack+vuex+scss+svg构图+es6/7
 ### 项目运行
 
 ```
-git clone https://github.com/bailichen/vue-weixin.git
+git clone https://github.com/liugu/vue-weixin
 
 cd vue-weixin
 
