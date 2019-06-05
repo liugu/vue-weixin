@@ -192,6 +192,7 @@ export default {
                     this.GET_USERINFO(res.user_info)
                 }
             } catch (err) {
+                this.consumerthing = true
                 console.log('获取用户信息失败', err)
                 this.LOGIN_COVER(true)
             }

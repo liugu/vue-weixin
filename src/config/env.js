@@ -1,11 +1,11 @@
 //获取图片地址
-const imgurl = 'http://cangdu.org/files/images/';
+const imgurl = 'http://127.0.0.1/files/images/';
 let baseUrl;
 
 if (process.env.NODE_ENV == 'development') {
-	baseUrl = 'http://cangdu.org:8003'
+	baseUrl = 'http://127.0.0.1:8003'
 }else{
-	baseUrl = 'http://cangdu.org:8003'
+	baseUrl = 'http://127.0.0.1:8003'
 }
 export {
 	baseUrl,

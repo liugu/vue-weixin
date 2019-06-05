@@ -124,7 +124,7 @@
 	import 'src/config/swiper.min.js' 
 	import 'src/style/swiper.min.css'
 	import fetch from 'src/config/fetch'
-	const socket = io('http://cangdu.org:8003');
+	const socket = io('http://127.0.0.1:8003');
 	export default{ 
 		data(){
 			return{

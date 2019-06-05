@@ -18,7 +18,7 @@ const os = require('os');
 const networkInterfaces = os.networkInterfaces();
 
 
-let ip = '';
+let ip = '127.0.0.1';
 for (var key in networkInterfaces) {
     networkInterfaces[key].forEach(item => {
         if (!item.internal && item.family === 'IPv4') {
@@ -36,7 +36,7 @@ module.exports = {
         publicPath: '/'
     },
     devServer: {
-        host: ip,
+        host: '127.0.0.1',
         port: 10022
     },
     resolve: {
